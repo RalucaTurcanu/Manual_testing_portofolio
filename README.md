@@ -27,3 +27,15 @@ Playground is a suite of Selenium and RoboBrowser automated tests for [OrangeHRM
      <title>Test</title>
    </head>
    ```
+1. Open the file containing the Linux mascot.
+2. Marvel at its beauty.
+
+    ![API](/Tema10.PNG)
+
+3. Close the file.
+
+
+<img src="/Tema10.PNG" width="500" height="300">
+
+As vrea sa ==marchez== acest cuvant
+
