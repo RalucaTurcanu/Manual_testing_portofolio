@@ -1,0 +1,133 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Priority,Reporter,Creator,Fix versions,Description,Inward issue link (Relates),Inward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Custom field (Epic Link),Epic Link Summary
+As a user I wan to be able to edit my Personal Details,TRE-78,10433,Story,Backlog,TRE,Proiect_Raluca,Medium,testaremanual25,testaremanual25,,,TRE-1,TRE-79,TRE-80,TRE-81,TRE-82,TRE-83,TRE-84,,,,TRE-1,My Info will have multiple sections.
+As a user I want to be able to manage the search results of a system user ,TRE-34,10256,Story,In Progress,TRE,Proiect_Raluca,Medium,testaremanual25,testaremanual25,Ver1-Admin_Module,"This feature allows the HR Admin to administer users by creating logins and defining privileges by assigning User Types (Admin or ESS).
+
+*Note: An employee list needs to be created first under the PIM Module to create user logins.
+
+To create a user login the following needs to be entered: 
+
+● User Role: You can assign user roles for each user whether they would fall under as an “Admin” or “ESS” user type to define their user rights.  ● Admin: have access full access to the system. ● ESS: limited access to the system. It could be an ESS-Supervisor or ESS-Employee. 1. ESS-Supervisor: where the user has access to his/her particulars and his/her subordinates’ particulars. 2. ESS-Employee: where the user has access only to his/her particulars. 
+
+● Employee Name *If an HR Admin is an existing employee, he/she needs to be defined in the PIM Module 
+
+● Username 
+
+● Status – Enabled or disabled 
+
+● Password 
+
+● Confirm Password (Re-enter the password)
+
+To delete a system user, click on the check box next to the “Username”. It is also possible to delete multiple entries at the same time by clicking the check box entries you wish to delete and simply clicking “Delete”.",TRE-8,,TRE-35,TRE-31,TRE-32,,,,,,TRE-8,Admin will have multiple sections
+As a user I want to be able to define Work Shifts.,TRE-23,10157,Story,Backlog,TRE,Proiect_Raluca,Medium,testaremanual25,testaremanual25,Ver1-Admin_Module,"The job titles specific to the company can be defined in this option.
+
+To delete a Job Title click on the check box next to the Job Title name. It is also possible to delete multiple entries at the same time by clicking the check box entries you wish to delete and simply clicking “Delete”.",TRE-8,TRE-41,TRE-27,TRE-40,TRE-39,TRE-42,,,,,TRE-8,Admin will have multiple sections
+As a user I want to be able to define Job Categories.,TRE-22,10156,Story,Backlog,TRE,Proiect_Raluca,Medium,testaremanual25,testaremanual25,Ver1-Admin_Module,"The job titles specific to the company can be defined in this option.
+
+To delete a Job Title click on the check box next to the Job Title name. It is also possible to delete multiple entries at the same time by clicking the check box entries you wish to delete and simply clicking “Delete”.",TRE-8,,TRE-26,TRE-60,TRE-61,TRE-62,TRE-63,,,,TRE-8,Admin will have multiple sections
+As a user I want to be able to define Employment Status.,TRE-21,10155,Story,Backlog,TRE,Proiect_Raluca,Medium,testaremanual25,testaremanual25,Ver1-Admin_Module,"The job titles specific to the company can be defined in this option.
+
+To delete a Job Title click on the check box next to the Job Title name. It is also possible to delete multiple entries at the same time by clicking the check box entries you wish to delete and simply clicking “Delete”.",TRE-8,,TRE-25,TRE-57,TRE-58,TRE-59,,,,,TRE-8,Admin will have multiple sections
+As a user I want to be able to define pay grades.,TRE-20,10154,Story,Backlog,TRE,Proiect_Raluca,Medium,testaremanual25,testaremanual25,Ver1-Admin_Module,"The job titles specific to the company can be defined in this option.
+
+To delete a Job Title click on the check box next to the Job Title name. It is also possible to delete multiple entries at the same time by clicking the check box entries you wish to delete and simply clicking “Delete”.",TRE-8,,TRE-24,TRE-50,TRE-51,TRE-52,TRE-54,TRE-55,TRE-56,,TRE-8,Admin will have multiple sections
+As a user I want to be able to reset the search of a system user,TRE-15,10149,Story,In Progress,TRE,Proiect_Raluca,Medium,testaremanual25,testaremanual25,Ver1-Admin_Module,"This feature allows the HR Admin to administer users by creating logins and defining privileges by assigning User Types (Admin or ESS).
+
+*Note: An employee list needs to be created first under the PIM Module to create user logins.
+
+To create a user login the following needs to be entered: 
+
+● User Role: You can assign user roles for each user whether they would fall under as an “Admin” or “ESS” user type to define their user rights.  ● Admin: have access full access to the system. ● ESS: limited access to the system. It could be an ESS-Supervisor or ESS-Employee. 1. ESS-Supervisor: where the user has access to his/her particulars and his/her subordinates’ particulars. 2. ESS-Employee: where the user has access only to his/her particulars. 
+
+● Employee Name *If an HR Admin is an existing employee, he/she needs to be defined in the PIM Module 
+
+● Username 
+
+● Status – Enabled or disabled 
+
+● Password 
+
+● Confirm Password (Re-enter the password)
+
+To delete a system user, click on the check box next to the “Username”. It is also possible to delete multiple entries at the same time by clicking the check box entries you wish to delete and simply clicking “Delete”.",TRE-8,,,,,,,,,,TRE-8,Admin will have multiple sections
+As a user I want to be able to edit a system user,TRE-14,10148,Story,In Progress,TRE,Proiect_Raluca,Medium,testaremanual25,testaremanual25,Ver1-Admin_Module,"This feature allows the HR Admin to administer users by creating logins and defining privileges by assigning User Types (Admin or ESS).
+
+*Note: An employee list needs to be created first under the PIM Module to create user logins.
+
+To create a user login the following needs to be entered: 
+
+● User Role: You can assign user roles for each user whether they would fall under as an “Admin” or “ESS” user type to define their user rights.  ● Admin: have access full access to the system. ● ESS: limited access to the system. It could be an ESS-Supervisor or ESS-Employee. 1. ESS-Supervisor: where the user has access to his/her particulars and his/her subordinates’ particulars. 2. ESS-Employee: where the user has access only to his/her particulars. 
+
+● Employee Name *If an HR Admin is an existing employee, he/she needs to be defined in the PIM Module 
+
+● Username 
+
+● Status – Enabled or disabled 
+
+● Password 
+
+● Confirm Password (Re-enter the password)
+
+To delete a system user, click on the check box next to the “Username”. It is also possible to delete multiple entries at the same time by clicking the check box entries you wish to delete and simply clicking “Delete”.",TRE-8,,TRE-16,TRE-67,TRE-68,TRE-69,TRE-71,TRE-72,,,TRE-8,Admin will have multiple sections
+As a user I want to be able to delete a system user,TRE-13,10147,Story,In Progress,TRE,Proiect_Raluca,Medium,testaremanual25,testaremanual25,Ver1-Admin_Module,"This feature allows the HR Admin to administer users by creating logins and defining privileges by assigning User Types (Admin or ESS).
+
+*Note: An employee list needs to be created first under the PIM Module to create user logins.
+
+To create a user login the following needs to be entered: 
+
+● User Role: You can assign user roles for each user whether they would fall under as an “Admin” or “ESS” user type to define their user rights.  ● Admin: have access full access to the system. ● ESS: limited access to the system. It could be an ESS-Supervisor or ESS-Employee. 1. ESS-Supervisor: where the user has access to his/her particulars and his/her subordinates’ particulars. 2. ESS-Employee: where the user has access only to his/her particulars. 
+
+● Employee Name *If an HR Admin is an existing employee, he/she needs to be defined in the PIM Module 
+
+● Username 
+
+● Status – Enabled or disabled 
+
+● Password 
+
+● Confirm Password (Re-enter the password)
+
+To delete a system user, click on the check box next to the “Username”. It is also possible to delete multiple entries at the same time by clicking the check box entries you wish to delete and simply clicking “Delete”.",TRE-8,,TRE-18,TRE-65,TRE-66,,,,,,TRE-8,Admin will have multiple sections
+" As a user I want to be able to search a system user, by multiple fields",TRE-12,10146,Story,In Progress,TRE,Proiect_Raluca,Medium,testaremanual25,testaremanual25,Ver1-Admin_Module,"This feature allows the HR Admin to administer users by creating logins and defining privileges by assigning User Types (Admin or ESS).
+
+*Note: An employee list needs to be created first under the PIM Module to create user logins.
+
+To create a user login the following needs to be entered: 
+
+● User Role: You can assign user roles for each user whether they would fall under as an “Admin” or “ESS” user type to define their user rights.  ● Admin: have access full access to the system. ● ESS: limited access to the system. It could be an ESS-Supervisor or ESS-Employee. 1. ESS-Supervisor: where the user has access to his/her particulars and his/her subordinates’ particulars. 2. ESS-Employee: where the user has access only to his/her particulars. 
+
+● Employee Name *If an HR Admin is an existing employee, he/she needs to be defined in the PIM Module 
+
+● Username 
+
+● Status – Enabled or disabled 
+
+● Password 
+
+● Confirm Password (Re-enter the password)
+
+To delete a system user, click on the check box next to the “Username”. It is also possible to delete multiple entries at the same time by clicking the check box entries you wish to delete and simply clicking “Delete”.",TRE-8,TRE-37,TRE-11,TRE-38,TRE-73,TRE-74,TRE-75,,,,TRE-8,Admin will have multiple sections
+As a user I want to be able to define job titles.,TRE-10,10024,Story,Backlog,TRE,Proiect_Raluca,Medium,testaremanual25,testaremanual25,Ver1-Admin_Module,"The job titles specific to the company can be defined in this option.
+
+To delete a Job Title click on the check box next to the Job Title name. It is also possible to delete multiple entries at the same time by clicking the check box entries you wish to delete and simply clicking “Delete”.",TRE-8,,TRE-19,TRE-43,TRE-44,TRE-45,TRE-46,TRE-47,TRE-48,TRE-49,TRE-8,Admin will have multiple sections
+As a HR Admin user I want to be able to Add Users,TRE-9,10023,Story,In Progress,TRE,Proiect_Raluca,Medium,testaremanual25,testaremanual25,Ver1-Admin_Module,"This feature allows the HR Admin to administer users by creating logins and defining privileges by assigning User Types (Admin or ESS).
+
+*Note: An employee list needs to be created first under the PIM Module to create user logins.
+
+To create a user login the following needs to be entered: 
+
+● User Role: You can assign user roles for each user whether they would fall under as an “Admin” or “ESS” user type to define their user rights.  ● Admin: have access full access to the system. ● ESS: limited access to the system. It could be an ESS-Supervisor or ESS-Employee. 1. ESS-Supervisor: where the user has access to his/her particulars and his/her subordinates’ particulars. 2. ESS-Employee: where the user has access only to his/her particulars. 
+
+● Employee Name *If an HR Admin is an existing employee, he/she needs to be defined in the PIM Module 
+
+● Username 
+
+● Status – Enabled or disabled 
+
+● Password 
+
+● Confirm Password (Re-enter the password)
+
+To delete a system user, click on the check box next to the “Username”. It is also possible to delete multiple entries at the same time by clicking the check box entries you wish to delete and simply clicking “Delete”.",TRE-8,,TRE-17,TRE-28,TRE-29,TRE-30,TRE-36,TRE-64,TRE-70,TRE-76,TRE-8,Admin will have multiple sections
+As a user I want to be able to add Contact Details,TRE-3,10011,Story,Done,TRE,Proiect_Raluca,Medium,testaremanual25,testaremanual25,Version1-AddDependents,,PROIEC-1,,,,,,,,,,TRE-1,My Info will have multiple sections.
+As a user I want to be able to assign dependents.,TRE-2,10008,Story,Done,TRE,Proiect_Raluca,Medium,testaremanual25,testaremanual25,Ver1-Admin_Module,,PROIEC-1,,TRE-4,TRE-5,TRE-7,TRE-6,,,,,TRE-1,My Info will have multiple sections.
