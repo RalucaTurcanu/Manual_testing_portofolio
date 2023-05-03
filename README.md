@@ -11,12 +11,52 @@ For REST API testing of [Simple Book](https://github.com/vdespa/introduction-to-
 
 For creating, designing and building databases I have used MySQL Workbench tool.
 
-Next, I will detail the process and results of the testing technics applied in 2 sections: [Testing Section](#testing-section) and [SQL Section](#sql-section). 
+Next, I will detail the process and results of the testing technics applied in 2 sections: [Testing Section](#1-testing-section) and [SQL Section](#sql-section). 
 
-## Testing Section
+## 1 Testing Section
+### 1.1 Test Planning 
+The Test Plan is designed to describe all details of testing for the Admin Modul of the OrangeHRM application.
 
+The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan
 
+#### 1.1.1 Roles assigned to the project and persons allocated
+- Project manager - Maria Marga
+- Product owner - Gica Hagi
+- Software developer - Sorina Ionita
+- QA Engineer - Raluca Turcanu
 
+#### 1.1.2 Entry criteria defined:
+- testing environment established
+- functional specifications are defined
+- roles needed for the project are allocated
+- test plans are completed
+
+#### 1.1.3 Exit criteria defined:
+- all items in scope were tested
+- all test cases are executed
+- all resolved bugs have been re-tested and approved by the QA team
+- defects wew documented and reported
+- deadline was reached
+- no detected major risk remained un-mitigated
+- exploratory regression testing must be performed on the Admin module, which includes the "User Managemnt" and "Job" sections
+
+#### 1.1.4 Test scope
+Tests in scope: All the feature of Admin module which were defined in software requirement specs need to be tested: functional testing, GUI testing, integrations of the Admin module with other modules
+Tests not in scope: performance testing, compatibility testing with multiple browsers
+
+#### 1.1.5 Risks detected
+Project risks: 
+- lack of experience of the QA team, 
+- short deadline of Zephyr Squad trial, 
+- unavailability of test environment
+Product risks: 
+- validation constraints on the fields might be too restrictive to the end-user
+
+#### 1.1.6 Evaluating entry criteria
+The entry criterias defined in the Test Planning phase have been achieved and the test process can continue.
+
+### 1.2 Test Monitoring and Control
+Variou periodic reports were generated to reflect the current status of the testing process, in case of major problems control measures could be taken. The following status report was generated after 23% of the test cases were executed, on 29 of March 2023:
 
 
 ## SQL Section
