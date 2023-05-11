@@ -73,7 +73,7 @@ Check all validation constraints for the fields
 Functional test cases were created in Zephyr Squad. Based on the analysis of the specifications, the test design techniques used for generating test cases are boundary value analysis, equivalence partitioning and use case testing.
 <img src="Proiect Final/Images/Test_cases.PNG" width="700" height="400">
 
-
+ All the test cases exported from Jira can be found [here](Proiect Final/Jira reports/Jira_ZFJ-_Test Cases.xlsx). Keep in mind that at the moment of the export, the project was not finished.
 
 ## SQL Section
 
