@@ -83,7 +83,6 @@ Full regression testing is needed after the bugs are fixed
 ### 1.7 Test Completion
 The Exit criteria were met and satisfied as mentioned in the Test planning section.
 The traceability matrix was generated and can be found here: [Traceability_matrix.csv](https://github.com/RalucaTurcanu/Manual_testing_portofolio/blob/74b48b9215f3d18889bafe571f6ff6dc93b34878/Proiect%20Final/Jira%20reports/Jira_Traceability_Matrix.xlsx)
-
 Test execution chart was generated, the final report shows that a number of 9 tests have failed.
 A number of 47 test cases were planned for execution and all of them were executed.
 A number of 9 total bugs were found.
@@ -91,7 +90,7 @@ A number of 9 total bugs were found.
 
 
 ## SQL Section
-I have created a new database for OrangheHRM application, where I have created 2 tables on which I have performed different queries. The databe can be found here:
+I have created a new database for OrangheHRM application, where I have created 2 tables on which I have performed different queries. The databe can be found [here](https://github.com/RalucaTurcanu/Manual_testing_portofolio/blob/00852aa7485f764b2d55e33e87362ae63dcdbda2/Proiect%20Final/MySQL_OrangeHRM_database.sql)
 
 ## API Section
 API tests are executed based on the checklist. The collection used can be found here: [Simple books](https://github.com/vdespa/introduction-to-postman-course/blob/main/simple-books-api.md)
