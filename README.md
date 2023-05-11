@@ -73,7 +73,18 @@ Check all validation constraints for the fields
 Functional test cases were created in Zephyr Squad. Based on the analysis of the specifications, the test design techniques used for generating test cases are boundary value analysis, equivalence partitioning and use case testing.
 <img src="Proiect Final/Images/Test_cases.PNG" width="700" height="400">
 
- All the test cases exported from Jira can be found [here](Proiect Final/Jira reports/Jira_ZFJ-_Test Cases.xlsx). Keep in mind that at the moment of the export, the project was not finished.
+ All the test cases exported from Jira can be found here([Proiect Final/Jira reports/Jira_ZFJ-_Test Cases.xlsx](https://github.com/RalucaTurcanu/Manual_testing_portofolio/blob/c9221403502a38a0b117d3c61dc72c1ef421344a/Proiect%20Final/Jira%20reports/Jira_ZFJ-_Test%20Cases.xlsx)). Keep in mind that at the moment of the export, the project was not finished.
+
+### 1.6 Test Execution
+Test cases are executed on the created test Cycle summary
+Bugs have been created based on the failed tests. The complete bug reports can be found here: Dependents_created_bugs.pdf
+Date format is not dd/mm/yyyy
+Future "Date of Birth" can be selected from calendar
+Only 50 characters are allowed for "Please Specify" field
+Only 50 characters are allowed for "Name" field
+Relationship "parent" is missing
+API tests are executed based on the checklist. The collection used can be found here: JSON file with the collection of requests created for the Dependents API
+Full regression testing is needed after the bugs are fixed
 
 ## SQL Section
 
