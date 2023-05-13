@@ -73,7 +73,7 @@ Check all validation constraints for the fields
 Functional test cases were created in Zephyr Squad. Based on the analysis of the specifications, the test design techniques used for generating test cases are boundary value analysis, equivalence partitioning and use case testing.
 <img src="Proiect Final/Images/Test_cases.PNG" width="700" height="400">
 
- All the test cases exported from Jira can be found here([Proiect Final/Jira reports/Jira_ZFJ-_Test Cases.xlsx](https://github.com/RalucaTurcanu/Manual_testing_portofolio/blob/c9221403502a38a0b117d3c61dc72c1ef421344a/Proiect%20Final/Jira%20reports/Jira_ZFJ-_Test%20Cases.xlsx)). Keep in mind that at the moment of the export, the project was not finished.
+ All the test cases exported from Jira can be found [here](https://github.com/RalucaTurcanu/Manual_testing_portofolio/blob/c9221403502a38a0b117d3c61dc72c1ef421344a/Proiect%20Final/Jira%20reports/Jira_ZFJ-_Test%20Cases.xlsx). Keep in mind that at the moment of the export, the project was not finished.
 
 ### 1.6 Test Execution
 Test cases are executed on the created test Cycle summary
@@ -81,16 +81,16 @@ Bugs have been created based on the failed tests. The complete bug reports can b
 Full regression testing is needed after the bugs are fixed
 
 ### 1.7 Test Completion
-The Exit criteria were met and satisfied as mentioned in the Test planning section.
-The traceability matrix was generated and can be found here: [Traceability_matrix.csv](https://github.com/RalucaTurcanu/Manual_testing_portofolio/blob/74b48b9215f3d18889bafe571f6ff6dc93b34878/Proiect%20Final/Jira%20reports/Jira_Traceability_Matrix.xlsx)
-Test execution chart was generated, the final report shows that a number of 9 tests have failed.
-A number of 47 test cases were planned for execution and all of them were executed.
-A number of 9 total bugs were found.
+- The Exit criteria were met and satisfied as mentioned in the Test planning section.
+- The traceability matrix was generated and can be found here: [Traceability_matrix.csv](https://github.com/RalucaTurcanu/Manual_testing_portofolio/blob/74b48b9215f3d18889bafe571f6ff6dc93b34878/Proiect%20Final/Jira%20reports/Jira_Traceability_Matrix.xlsx)
+- Test execution chart was generated, the final report shows that a number of 9 tests have failed.
+- A number of 47 test cases were planned for execution and all of them were executed.
+- A number of 9 total bugs were found.
 
 
 
 ## SQL Section
-I have created a new database for OrangheHRM application, where I have created 2 tables on which I have performed different queries. The databe can be found [here](https://github.com/RalucaTurcanu/Manual_testing_portofolio/blob/00852aa7485f764b2d55e33e87362ae63dcdbda2/Proiect%20Final/MySQL_OrangeHRM_database.sql)
+I have created a new database for OrangheHRM application, where I have created 2 tables on which I have performed different queries. The databe can be found [here](https://github.com/RalucaTurcanu/Manual_testing_portofolio/blob/00852aa7485f764b2d55e33e87362ae63dcdbda2/Proiect%20Final/MySQL_OrangeHRM_database.sql).
 
 ## API Section
 API tests are executed based on the checklist. The collection used can be found here: [Simple books](https://github.com/vdespa/introduction-to-postman-course/blob/main/simple-books-api.md)
@@ -99,40 +99,5 @@ API tests are executed based on the checklist. The collection used can be found 
 
 
 
-Playground is a suite of Selenium and RoboBrowser automated tests for [OrangeHRM](https://opensource-demo.orangehrmlive.com/web/index.php/auth/login).
-1. jgjgj
-2. fhff
-3. gjgjg
-> Dorothy followed her through many of the beautiful rooms in her castle.
->
->> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
->>> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-> #### The quarterly results look great!
->
-> - Revenue was off the chart.
-> - Profits were higher than ever.
->
->  *Everything* is going according to **plan**.
-- Second item
-- Third item
-    - Indented item
-    - Indented item
-- Fourth item
-```
- <html>
-   <head>
-     <title>Test</title>
-   </head>
-   ```
-1. Open the file containing the Linux mascot.
-2. Marvel at its beauty.
 
-    ![API](/Tema10.PNG)
-
-3. Close the file.
-
-
-<img src="/Tema10.PNG" width="500" height="300">
-
-As vrea sa ==marchez== acest cuvant
 
