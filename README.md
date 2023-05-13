@@ -60,14 +60,21 @@ Various periodic reports were generated to reflect the current status of the tes
 <img src="Proiect Final/Images/Monitorin_and_control.PNG" width="700" height="400">
 
 ### 1.3 Test Analysis
-The testing process will be executed based on the above requirements for the Admin module. The following test conditions were found:
+The testing process will be executed based on the above requirements for the Admin module. 
+The following test conditions were found for the User Management sub-menu:
+- Enter data only for mandatory fields and check that the User is added/updated
+- Leave mandatory fields empty and check that the User cannot be added/updated
+- Enter data for all available fields and check if you can search an User
+- Check if you can delete one or more Users
+- View all Users in a list
+- Check all validation constraints for the fields
 
-Enter data only for mandatory fields and check that the dependant is created/updated
-Enter data for all available fields and check that the dependant is created/updated
-Leave mandatory fields empty and check that the dependant cannot be created/updated
-View dependant details and check they are correct
-View all dependants in a list
-Check all validation constraints for the fields
+The following test conditions were found for the Job ( Job Titles, Pay grades, Employment Status, Job Categories,Work Shifts) sub-menu:
+- Enter data only for mandatory fields and check that the Job Titles/ Pay grades/ Employment Status/ Job Categories/ Work Shifts is added/updated
+- Leave mandatory fields empty and check that the Job Titles/ Pay grades/ Employment Status/ Job Categories/ Work Shifts cannot be added/updated
+- Check if you can delete one or more Job Titles/ Pay grades/ Employment Status/ Job Categories/ Work Shifts
+- View all Job Titles/ Pay grades/ Employment Status/ Job Categories/ Work Shifts in a list
+- Check all validation constraints for the fields
 
 ### 1.4 Test Design
 Functional test cases were created in Zephyr Squad. Based on the analysis of the specifications, the test design techniques used for generating test cases are boundary value analysis, equivalence partitioning and use case testing.
