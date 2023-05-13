@@ -93,7 +93,11 @@ Full regression testing is needed after the bugs are fixed
 I have created a new database for OrangheHRM application, where I have created 2 tables on which I have performed different queries. The databe can be found [here](https://github.com/RalucaTurcanu/Manual_testing_portofolio/blob/00852aa7485f764b2d55e33e87362ae63dcdbda2/Proiect%20Final/MySQL_OrangeHRM_database.sql).
 
 ## API Section
-API tests are executed based on the checklist. The collection used can be found here: [Simple books](https://github.com/vdespa/introduction-to-postman-course/blob/main/simple-books-api.md)
+
+
+API tests are executed based on the checklist. The collection used can be found here: [Simple books](https://github.com/vdespa/introduction-to-postman-course/blob/main/simple-books-api.md).
+and the [JSON file](https://github.com/RalucaTurcanu/Manual_testing_portofolio/blob/aae41838a8703e67c6a91511935c17be693b8c0c/Proiect%20Final/Simple%20_Book_postman_collection.json) with the collectoion of requests created for Simple Books.
+
 
 
 
