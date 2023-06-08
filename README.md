@@ -47,10 +47,15 @@ Tests not in scope: performance testing, compatibility testing with multiple bro
 #### 1.1.5 Risks detected
 Project risks: 
 - lack of experience of the QA team, 
-- short deadline of Zephyr Squad trial, 
+- short deadline of Zephyr Squad trial 
 - unavailability of test environment
+- Unclear application specifications
+
 Product risks: 
 - validation constraints on the fields might be too restrictive to the end-user
+- The risk that the application will not function as required
+- The risk that the application will not be functional
+- The risk of an undetected bug causing data loss
 
 #### 1.1.6 Evaluating entry criteria
 The entry criterias defined in the Test Planning phase have been achieved and the test process can continue.
@@ -84,8 +89,9 @@ Functional test cases were created in Zephyr Squad. Based on the analysis of the
 
 ### 1.6 Test Execution
 Test cases are executed on the created test Cycle summary
-Bugs have been created based on the failed tests. The complete bug reports can be found here: [Dependents_created_bugs.pdf](https://github.com/RalucaTurcanu/Manual_testing_portofolio/blob/2508801f3049bc218c7102bc13b8bee419ecf100/Proiect%20Final/Jira%20reports/Jira_bugs.pdf)
-Full regression testing is needed after the bugs are fixed
+Bugs have been created based on the failed tests. The complete bug reports can be found here: [Dependents_created_bugs.pdf](https://github.com/RalucaTurcanu/Manual_testing_portofolio/blob/2508801f3049bc218c7102bc13b8bee419ecf100/Proiect%20Final/Jira%20reports/Jira_bugs.pdf).
+
+Full regression testing is needed after the bugs are fixed.
 
 ### 1.7 Test Completion
 - The Exit criteria were met and satisfied as mentioned in the Test planning section.
