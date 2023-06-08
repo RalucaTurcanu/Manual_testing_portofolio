@@ -94,11 +94,11 @@ Bugs have been created based on the failed tests. The complete bug reports can b
 Full regression testing is needed after the bugs are fixed.
 
 ### 1.7 Test Completion
-- The Exit criteria were met and satisfied as mentioned in the Test planning section.
+- The Exit criteria were met and satisfied as mentioned in the Test planning section
 - The traceability matrix was generated and can be found here: [Traceability_matrix.csv](https://github.com/RalucaTurcanu/Manual_testing_portofolio/blob/74b48b9215f3d18889bafe571f6ff6dc93b34878/Proiect%20Final/Jira%20reports/Jira_Traceability_Matrix.xlsx)
-- Test execution chart was generated, the final report shows that a number of 9 tests have failed.
-- A number of 47 test cases were planned for execution and all of them were executed.
-- A number of 9 total bugs were found.
+- Test execution chart was generated, the final report shows that a number of 9 tests have failed
+- A number of 47 test cases were planned for execution and all of them were executed
+- A total of 9 bugs were found
 
 
 
