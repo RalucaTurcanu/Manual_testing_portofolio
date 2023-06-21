@@ -58,7 +58,7 @@ Product risks:
 - The risk of an undetected bug causing data loss
 
 #### 1.1.6 Evaluating entry criteria
-The entry criterias defined in the Test Planning phase have been achieved and the test process can continue.
+The entry criteria defined in the Test Planning phase have been achieved and the test process can continue.
 
 ### 1.2 Test Monitoring and Control
 Various periodic reports were generated to reflect the current status of the testing process, in case of major problems control measures could be taken. The following status report was generated after 23% of the test cases were executed, on 29 of March 2023:
