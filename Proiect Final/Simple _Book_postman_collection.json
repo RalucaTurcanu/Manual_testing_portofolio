@@ -37,6 +37,33 @@
 					"response": []
 				},
 				{
+					"name": "Register a new API client with an existing email",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"clientName\": \"FoxF\",\r\n  \"clientEmail\": \"foxy@example.com\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{Url}}/api-clients/",
+							"host": [
+								"{{Url}}"
+							],
+							"path": [
+								"api-clients",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "Register a new API client with email integer",
 					"request": {
 						"method": "POST",
@@ -246,7 +273,7 @@
 					"response": []
 				},
 				{
-					"name": "Submit an order 1",
+					"name": "Submit an order",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -282,7 +309,7 @@
 					"response": []
 				},
 				{
-					"name": "Submit an order 2",
+					"name": "Submit an order with an invalid bookId",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -298,7 +325,115 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"bookId\": 6,\r\n  \"customerName\": \"Ken\"\r\n}",
+							"raw": "{\r\n  \"bookId\": 7,\r\n  \"customerName\": \"Ken\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{Url}}/orders",
+							"host": [
+								"{{Url}}"
+							],
+							"path": [
+								"orders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Submit an order with the CostumerName empty",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"bookId\": 6,\r\n  \"customerName\":\"\" \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{Url}}/orders",
+							"host": [
+								"{{Url}}"
+							],
+							"path": [
+								"orders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Submit an order without customerName",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"bookId\": 6\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{Url}}/orders",
+							"host": [
+								"{{Url}}"
+							],
+							"path": [
+								"orders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Submit an order with bookId missing",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \r\n  \"customerName\": \"Ken\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -334,7 +469,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"bookId\": unu,\r\n  \"customerName\": \"Ion\"\r\n}",
+							"raw": "{\r\n  \"bookId\": \"unu\",\r\n  \"customerName\": \"Ion\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -370,7 +505,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"bookId\": 1,\r\n  \"customerName\": \"56582\"\r\n}",
+							"raw": "{\r\n  \"bookId\": \"1\",\r\n  \"customerName\": \"56582\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -583,6 +718,34 @@
 					"response": []
 				},
 				{
+					"name": "Delete an order with an invalid id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{Url}}/orders/Erw0QrmIldHwIU7y4jT555",
+							"host": [
+								"{{Url}}"
+							],
+							"path": [
+								"orders",
+								"Erw0QrmIldHwIU7y4jT555"
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "Delete an order",
 					"request": {
 						"auth": {
@@ -598,13 +761,13 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{Url}}/orders/eM0rM9udbWi6dEJPVHJXk",
+							"raw": "{{Url}}/orders/Erw0QrmIldHwIU7y4jT555",
 							"host": [
 								"{{Url}}"
 							],
 							"path": [
 								"orders",
-								"eM0rM9udbWi6dEJPVHJXk"
+								"Erw0QrmIldHwIU7y4jT555"
 							]
 						}
 					},
